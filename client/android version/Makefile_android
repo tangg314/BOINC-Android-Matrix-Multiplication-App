@@ -1,0 +1,11 @@
+#Makefile that compiles "compute" with BOINC API.
+
+PROGS = compute
+
+all: $(PROGS)
+
+clean:
+	rm $(PROGS) *.o
+
+compute: compute.o $(BOINC_LIB_DIR)/libboinc.a $(BOINC_API_DIR)/libboinc_api.a
+	$(CXX) $(CXXFLAGS) $(LDFLAGS) -fPIE -fPIE -o compute compute.o $(BOINC_API_DIR)/libboinc_api.a $(BOINC_LIB_DIR)/libboinc.a $(STDCPPTC) -pie 

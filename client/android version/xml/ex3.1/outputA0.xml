@@ -1,0 +1,56 @@
+<output_template>
+    <file_info>
+      <name><OUTFILE_0/></name>
+      <generated_locally/>
+      <upload_when_present/>
+      <url><UPLOAD_URL/></url>
+      <max_nbytes>50000000</max_nbytes>
+    </file_info>
+    <file_info>
+      <name><OUTFILE_1/></name>
+      <generated_locally/>
+      <upload_when_present/>
+      <url><UPLOAD_URL/></url>
+      <max_nbytes>50000000</max_nbytes>
+    </file_info>
+    <file_info>
+      <name><OUTFILE_2/></name>
+      <generated_locally/>
+      <upload_when_present/>
+      <url><UPLOAD_URL/></url>
+      <max_nbytes>50000000</max_nbytes>
+    </file_info>
+    <file_info>
+      <name><OUTFILE_3/></name>
+      <generated_locally/>
+      <upload_when_present/>
+      <url><UPLOAD_URL/></url>
+      <max_nbytes>50000000</max_nbytes>
+    </file_info>
+<result>
+      <file_ref>
+        <file_name><OUTFILE_0/></file_name>
+        <open_name>C0</open_name>
+	<copy_file/>
+	<no_validate>1</no_validate>
+      </file_ref>
+      <file_ref>
+        <file_name><OUTFILE_1/></file_name>
+        <open_name>C1</open_name>
+	<copy_file/>
+	<no_validate>1</no_validate>
+      </file_ref>
+      <file_ref>
+        <file_name><OUTFILE_2/></file_name>
+        <open_name>C2</open_name>
+	<copy_file/>
+	<no_validate>1</no_validate>
+      </file_ref>
+      <file_ref>
+        <file_name><OUTFILE_3/></file_name>
+        <open_name>C3</open_name>
+	<copy_file/>
+	<no_validate>1</no_validate>
+      </file_ref>
+</result>
+</output_template>
